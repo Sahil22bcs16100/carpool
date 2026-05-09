@@ -1,5 +1,4 @@
 import "../styles/about.css";
-import developer from "../assets/Vanshika1.jpeg";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import { SiMongodb, SiExpress } from "react-icons/si";
 
