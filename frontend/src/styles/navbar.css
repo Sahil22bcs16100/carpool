@@ -1,0 +1,113 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+    background:#0f172a;
+    color:white;
+    
+    /* Sticky Navbar */
+    position:sticky;
+    top:0;
+    z-index:1000;
+    }
+    
+    .logo{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-size:24px;
+    font-weight:bold;
+    }
+    
+    .logo-icon{
+    color:#22c55e;
+    font-size:26px;
+    }
+    
+    .nav-right{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    }
+    
+    .nav-links{
+    display:flex;
+    list-style:none;
+    gap:25px;
+    }
+    
+    .nav-links a{
+    text-decoration:none;
+    color:white;
+    font-size:16px;
+    display:flex;
+    align-items:center;
+    gap:5px;
+    }
+    
+    .nav-links a:hover{
+    color:#38bdf8;
+    }
+    
+    .auth-buttons button{
+    margin-left:8px;
+    padding:8px 15px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:14px;
+    }
+    
+    .login-btn{
+    background:white;
+    }
+    
+    .signup-btn{
+    background:#22c55e;
+    color:white;
+    }
+    .username{
+        color:white;
+        margin-right:10px;
+        font-weight:500;
+        }
+
+        .profile-menu{
+            position:relative;
+            cursor:pointer;
+            }
+            
+            .profile-btn{
+            color:white;
+            font-weight:500;
+            }
+            
+            .dropdown-menu{
+            position:absolute;
+            top:35px;
+            right:0;
+            background:white;
+            color:black;
+            display:flex;
+            flex-direction:column;
+            min-width:140px;
+            border-radius:6px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.1);
+            overflow:hidden;
+            }
+            
+            .dropdown-menu a,
+            .dropdown-menu button{
+            padding:10px;
+            border:none;
+            background:none;
+            text-align:left;
+            cursor:pointer;
+            font-size:14px;
+            }
+            
+            .dropdown-menu a:hover,
+            .dropdown-menu button:hover{
+            background:#f3f4f6;
+            }

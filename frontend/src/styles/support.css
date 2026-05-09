@@ -1,0 +1,99 @@
+.support-page{
+    padding:60px 80px;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    /* HERO */
+    
+    .support-hero{
+    text-align:center;
+    max-width:700px;
+    margin:auto;
+    margin-bottom:60px;
+    }
+    
+    .support-hero h1{
+    font-size:38px;
+    margin-bottom:15px;
+    }
+    
+    .support-hero p{
+    color:#555;
+    font-size:17px;
+    }
+    
+    /* SUPPORT CARDS */
+    
+    .support-options{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-bottom:60px;
+    flex-wrap:wrap;
+    }
+    
+    .support-card{
+    background:white;
+    padding:25px;
+    width:260px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    }
+    
+    .support-icon{
+    font-size:35px;
+    color:#22c55e;
+    margin-bottom:10px;
+    }
+    
+    /* FORM */
+    
+    .support-form-container{
+    max-width:600px;
+    margin:auto;
+    text-align:center;
+    }
+    
+    .support-form{
+    margin-top:25px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    }
+    
+    .support-form input,
+    .support-form select,
+    .support-form textarea{
+    padding:12px;
+    border-radius:6px;
+    border:1px solid #ccc;
+    font-size:14px;
+    }
+    
+    .support-form button{
+    padding:12px;
+    background:#22c55e;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:15px;
+    }
+    
+    .support-form button:hover{
+    background:#16a34a;
+    }
+    .support-search{
+        margin-top:20px;
+        padding:12px;
+        width:300px;
+        border-radius:6px;
+        border:1px solid #ccc;
+        }
+        
+        .support-contact{
+        margin-top:50px;
+        text-align:center;
+        color:#555;
+        }

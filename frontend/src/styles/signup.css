@@ -1,0 +1,88 @@
+.signup-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:90vh;
+    transition:0.3s;
+    }
+    
+    .signup-container.light{
+    background:#f1f5f9;
+    color:black;
+    }
+    
+    .signup-container.dark{
+    background:#0f172a;
+    color:white;
+    }
+    
+    .signup-form{
+    background:white;
+    padding:35px;
+    border-radius:10px;
+    width:350px;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    }
+    
+    .dark .signup-form{
+    background:#1e293b;
+    }
+    
+    .signup-form input{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    }
+    
+    .signup-form button{
+    padding:10px;
+    background:#22c55e;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    }
+    
+    .password-field{
+    display:flex;
+    align-items:center;
+    }
+    
+    .toggle-password{
+    margin-left:10px;
+    cursor:pointer;
+    font-size:14px;
+    color:#3b82f6;
+    }
+    
+    .strength{
+    font-size:14px;
+    }
+    
+    .strength.weak{
+    color:red;
+    }
+    
+    .strength.medium{
+    color:orange;
+    }
+    
+    .strength.strong{
+    color:green;
+    }
+    
+    .theme-toggle{
+    position:absolute;
+    top:100px;
+    right:30px;
+    padding:8px 15px;
+    border:none;
+    background:#3b82f6;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+    }

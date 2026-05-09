@@ -1,0 +1,118 @@
+.tickets-page{
+    padding:60px 80px;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    
+    /* Page Title */
+    
+    .tickets-page h1{
+    font-size:34px;
+    margin-bottom:30px;
+    color:#111827;
+    }
+    
+    
+    /* Table */
+    
+    .tickets-table{
+    margin:auto;
+    width:75%;
+    border-collapse:collapse;
+    background:white;
+    box-shadow:0 6px 15px rgba(0,0,0,0.08);
+    border-radius:8px;
+    overflow:hidden;
+    }
+    
+    
+    /* Table Header */
+    
+    .tickets-table th{
+    background:#22c55e;
+    color:white;
+    padding:14px;
+    font-weight:500;
+    }
+    
+    
+    /* Table Cells */
+    
+    .tickets-table td{
+    padding:12px;
+    border-bottom:1px solid #e5e7eb;
+    color:#374151;
+    }
+    
+    
+    /* Row Hover */
+    
+    .tickets-table tr:hover{
+    background:#f9fafb;
+    }
+    
+    
+    /* Ticket Status */
+    
+    .status{
+    font-weight:600;
+    color:#f59e0b;
+    }
+    
+    
+    /* Empty Message */
+    
+    .tickets-page p{
+    font-size:16px;
+    color:#6b7280;
+    margin-top:20px;
+    }
+    
+    
+    /* Responsive */
+    
+    @media(max-width:900px){
+    
+    .tickets-table{
+    width:100%;
+    font-size:14px;
+    }
+    
+    .tickets-page{
+    padding:40px 20px;
+    }
+    
+    }
+    /* Status Badges */
+
+.status-badge{
+    padding:5px 12px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:500;
+    }
+    
+    
+    /* Pending */
+    
+    .status-badge.pending{
+    background:#fef3c7;
+    color:#b45309;
+    }
+    
+    
+    /* Resolved */
+    
+    .status-badge.resolved{
+    background:#dcfce7;
+    color:#15803d;
+    }
+    
+    
+    /* Rejected */
+    
+    .status-badge.rejected{
+    background:#fee2e2;
+    color:#b91c1c;
+    }

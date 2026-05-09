@@ -1,0 +1,27 @@
+.offer-container{
+    padding:60px;
+    max-width:400px;
+    margin:auto;
+    text-align:center;
+    }
+    
+    .offer-container form{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    }
+    
+    .offer-container input{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    }
+    
+    .offer-container button{
+    padding:12px;
+    background:#0b63ce;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    }
